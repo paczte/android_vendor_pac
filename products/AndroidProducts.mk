@@ -49,6 +49,13 @@ endif
 ifeq (pac_jewel,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_jewel.mk
 endif
+ifeq (pac_vigor,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_vigor.mk
+endif
+
+
+
+#skate
 ifeq (pac_skate,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_skate.mk
 endif
