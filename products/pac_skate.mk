@@ -5,10 +5,10 @@ ifeq (pac_skate,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/cooper
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/skate
 
 # PAC device overlay
-$(shell cp -f vendor/pac/overlay/pac/zte/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
+#$(shell cp -f vendor/pac/overlay/pac/zte/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
