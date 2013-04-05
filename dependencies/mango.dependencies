@@ -26,13 +26,7 @@
     {
         "account":      "CyanogenMod",
         "repository":   "android_hardware_sony_DASH",
-        "target_path":  "hardware/somc/dash",
-        "revision":     "jellybean"
-    },
-    {
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_ti_fmradio",
-        "target_path":  "hardware/ti/fmradio",
+        "target_path":  "hardware/sony/dash",
         "revision":     "jellybean"
     },
     {
